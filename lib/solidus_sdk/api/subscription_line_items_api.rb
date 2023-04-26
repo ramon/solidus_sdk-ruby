@@ -174,7 +174,7 @@ module SolidusSdk
         fail ArgumentError, "Missing the required parameter 'order_id' when calling SubscriptionLineItemsApi.post_api_orders_order_id_line_items"
       end
       # resource path
-      local_var_path = '/api/orders/{order_id}/line_items'.sub('{' + 'order_id' + '}', CGI.escape(order_id.to_s))
+      local_var_path = '/orders/{order_id}/line_items'.sub('{' + 'order_id' + '}', CGI.escape(order_id.to_s))
 
       # query parameters
       query_params = opts[:query_params] || {}
