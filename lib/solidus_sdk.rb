@@ -173,6 +173,18 @@ require 'solidus_sdk/models/variant_input_options'
 require 'solidus_sdk/models/zone'
 require 'solidus_sdk/models/zone_input'
 require 'solidus_sdk/models/zone_input_zone_members_attributes_inner'
+require 'solidus_sdk/models/patch_subscriptions_api_v1_subscriptions_id200_response'
+require 'solidus_sdk/models/patch_subscriptions_api_v1_subscriptions_id200_response_all_of'
+require 'solidus_sdk/models/patch_subscriptions_api_v1_subscriptions_id_request'
+require 'solidus_sdk/models/patch_subscriptions_api_v1_subscriptions_id_request_subscription'
+require 'solidus_sdk/models/patch_subscriptions_api_v1_subscriptions_id_request_subscription_all_of'
+require 'solidus_sdk/models/post_api_orders_order_id_line_items_request'
+require 'solidus_sdk/models/subscription'
+require 'solidus_sdk/models/subscription_line_item'
+require 'solidus_sdk/models/subscription_line_item_output'
+require 'solidus_sdk/models/subscription_line_item_output_all_of'
+require 'solidus_sdk/models/subscription_output'
+require 'solidus_sdk/models/subscription_output_all_of'
 
 # APIs
 require 'solidus_sdk/api/address_books_api'
@@ -208,6 +220,8 @@ require 'solidus_sdk/api/taxons_api'
 require 'solidus_sdk/api/users_api'
 require 'solidus_sdk/api/variants_api'
 require 'solidus_sdk/api/zones_api'
+require 'solidus_sdk/api/subscription_line_items_api'
+require 'solidus_sdk/api/subscriptions_api'
 
 module SolidusSdk
   class << self
