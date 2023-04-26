@@ -183,9 +183,6 @@ module SolidusSdk
       header_params = opts[:header_params] || {}
       # HTTP header 'Content-Type'
       content_type = @api_client.select_header_content_type(['application/json'])
-      if !content_type.nil?
-          header_params['Content-Type'] = content_type
-      end
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -197,7 +194,7 @@ module SolidusSdk
       return_type = opts[:debug_return_type]
 
       # auth_names
-      auth_names = opts[:debug_auth_names] || []
+      auth_names = opts[:debug_auth_names] || ['api-key', 'order-token']
 
       new_options = opts.merge(
         :operation => :"SubscriptionLineItemsApi.post_api_orders_order_id_line_items",
