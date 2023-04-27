@@ -74,7 +74,7 @@ module SolidusSdk
         :'adjustments' => :'Array<Adjustment>',
         :'cost' => :'String',
         :'id' => :'Integer',
-        :'manifest' => :'Array<Array>',
+        :'manifest' => :'Array<ShipmentManifestInner>',
         :'number' => :'String',
         :'order_id' => :'String',
         :'selected_shipping_rate' => :'ShippingRate',
